@@ -1,0 +1,144 @@
+* {
+  font-size: 12px;
+  font-family: JetBrainsMono Nerd Font, Material Design Icons;
+  font-weight: bold;
+  min-height: 0px;
+}
+
+window#waybar {
+  background-color: alpha(#181825, 0.5);
+  /* The `spacing` property is a great way to control the gap
+     between all modules in one place. */
+  spacing: 4px;
+}
+
+#workspaces {
+  border-radius: 1rem;
+  background-color: #313244;
+  /* Add a little space to the left of the workspaces module */
+  margin-left: 1rem;
+  /* Add some padding inside the workspaces container */
+  padding: 0 4px;
+}
+
+#workspaces button.text-button {
+  margin: 0;
+  padding: 0;
+}
+#workspaces button {
+  color: #b4befe;
+  border-radius: 1rem;
+  padding: 2px 6px;
+}
+#workspaces button.active,
+#workspaces button.focused {
+  color: #313244;
+  background-color: #89b4fa;
+  border-radius: 1rem;
+}
+#workspaces button.urgent {
+  color: #313244;
+  background-color: #f38ba8;
+  border-radius: 1rem;
+}
+#workspaces button.empty {
+  color: #7f849c;
+}
+#workspaces button.active.empty {
+  color: #585b70;
+}
+#workspaces button:hover {
+  color: #313244;
+  background-color: #89b4fa;
+}
+
+.modules-left {
+}
+
+.modules-center {
+  border-radius: 1rem;
+  background-color: #313244;
+  color: #b4befe;
+  /* Let's be aggressive with padding here */
+  padding: 0 0.5rem;
+}
+
+.modules-right {
+  /* Set background color and padding for the entire right side */
+  background-color: #313244;
+  border-radius: 1rem;
+  padding-right: 0.5rem;
+}
+
+#tray {
+  /* Let's remove this rule and let the `.modules-right` style handle the container */
+  /* This simplifies the CSS and saves space */
+}
+
+#sway-mode {
+  border-radius: 1rem;
+  background-color: #89b4fa;
+  color: #313244;
+  /* Aggressive padding */
+  padding: 0 0.5rem;
+}
+
+tooltip {
+  background: #1e1e2e;
+  border: 1px solid #89b4fa;
+}
+
+tooltip label {
+  color: #cdd6f4;
+}
+
+/* Let's remove all margins from individual modules and let `spacing`
+   on `window#waybar` handle the gaps. This is the most effective way
+   to fix the overlap and cutoff issue. */
+#custom-search,
+#custom-power,
+#custom-notification,
+#custom-todo,
+#custom-lock,
+#custom-weather,
+#custom-btc,
+#custom-eth,
+#bluetooth,
+#battery,
+#backlight,
+#volume,
+#tray,
+#pulseaudio,
+#network,
+#cpu,
+#memory,
+#disk {
+  color: #b4befe;
+  /* Removed all margin-left and margin-right properties */
+}
+
+#custom-power {
+  /* Added padding to the end of the bar */
+  padding-right: 8px;
+}
+
+#custom-launcher {
+  font-size: 18px;
+  /* Added padding to the beginning of the bar */
+  padding-left: 8px;
+}
+
+#backlight {
+  padding-right: 2px;
+  color: #f9e2af;
+}
+
+#battery {
+  color: #a6e3a1;
+}
+#battery.warning {
+  color: #f9e2af;
+}
+#battery.critical:not(.charging) {
+  color: #f38ba8;
+}
