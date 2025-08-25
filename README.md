@@ -162,6 +162,5 @@ This ensures Waybar runs automatically on session start.
 
 ---
 
-Let me know if you’d like help refining any module—for example, media controls, system tray, network graphs—or tailoring the appearance for Hyprland or another Wayland compositor. Happy to dive deeper!
 
 [1]: https://github.com/Alexays/Waybar?utm_source=chatgpt.com "Alexays/Waybar: Highly customizable Wayland bar for ... - GitHub"
