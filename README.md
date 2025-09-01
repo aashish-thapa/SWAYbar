@@ -3,7 +3,7 @@
 
 ## 1. Overview
 
-This repository contains your personalized configuration for **Waybar**, a customizable status bar designed for Wayland compositors (Sway, Hyprland, etc.). Your setup includes customized modules, layouts, and styling, along with supporting scripts and themes for a tailored experience.
+This repository contains my personalized configuration for **Waybar**, a customizable status bar designed for Wayland compositors (Sway, Hyprland, etc.). Your setup includes customized modules, layouts, and styling, along with supporting scripts and themes for a tailored experience.
 
 The structure includes:
 
