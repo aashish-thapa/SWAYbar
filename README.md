@@ -1,8 +1,11 @@
-# Waybar Config for UBUNTU Inspired by Meechabar
+### Image preview 
+
+
 <img width="1928" height="38" alt="image" src="https://github.com/user-attachments/assets/05824ee3-6a86-4ca3-8faf-bf8f00eb2419" />
 
-## 1. Overview
 
+
+## 1. Overview
 This repository contains my personalized configuration for **Waybar**, a customizable status bar designed for Wayland compositors (Sway, Hyprland, etc.). Your setup includes customized modules, layouts, and styling, along with supporting scripts and themes for a tailored experience.
 
 The structure includes:
@@ -148,19 +151,3 @@ This ensures Waybar runs automatically on session start.
   ```
 
 ---
-
-## 8. Summary Table
-
-| Step                    | Description                                              |
-| ----------------------- | -------------------------------------------------------- |
-| 1. Install Dependencies | Install build tools and libraries                        |
-| 2. Build Waybar Core    | Clone & compile Waybar if not installed                  |
-| 3. Deploy Custom Config | Copy your config and styles into `~/.config/waybar/`     |
-| 4. Launch Waybar        | Run `waybar` to apply custom setup                       |
-| 5. Autostart Setup      | Add `exec waybar` to compositor config                   |
-| 6. Debug & Troubleshoot | Enable debug logs and ensure environment variables unset |
-
----
-
-
-[1]: https://github.com/Alexays/Waybar?utm_source=chatgpt.com "Alexays/Waybar: Highly customizable Wayland bar for ... - GitHub"
